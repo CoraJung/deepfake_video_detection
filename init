@@ -1,3 +1,0 @@
-#!/bin/sh
-
-srun --pty -p interactive -- bash --init-file .srun_init
