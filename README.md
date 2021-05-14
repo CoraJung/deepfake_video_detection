@@ -20,4 +20,4 @@ The train folder and test folder arguments as well as other hyperpameter values 
 ```
 python face_train_classifier.py <path to train folder> <path to test folder> <batch size> <num epochs> <num frames> <learning rate> <path to pre-trained autoencoder model>
 ```
-This will create a csv file with information about training loss, validation loss, train accuracy, validation accuracy, and epoch run time.
+This will create a csv file with information about training loss, validation loss, train accuracy, validation accuracy, and epoch run time. We used `dfdc_train_part_1` (~10GB) as the training set, and `training sample data` as our test dataset. The final accuracy we obtained is 93.6% of training accuracy and 80.8% of test accuracy. 
