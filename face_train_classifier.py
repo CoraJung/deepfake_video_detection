@@ -193,4 +193,4 @@ df['train_acc'] = train_accuracies
 df['val_acc'] = val_accuracies
 df['epoch_times'] = epoch_times
     
-df.to_csv(f'train_classifier_nframes{n_frames}_bs{batch_size}_lr{lr}_0506_2ndtrial.csv', index=False)
+df.to_csv(f'train_classifier_nframes{n_frames}_bs{batch_size}_lr{lr}.csv', index=False)
